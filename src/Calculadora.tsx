@@ -21,7 +21,6 @@ function Calculadora() {
   return <div>
     <input type="text" id="num1" autoFocus />
     <Operacoes></Operacoes>
-    Operacoes
     <input type="text" id="num2" />
     =
     <button id="calcular" onClick={mostrarResultado}>Calcular</button>
